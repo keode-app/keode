@@ -29,6 +29,7 @@ class MainActivityUI : AnkoComponent<MainActivity> {
                 }
             }
             verticalLayout {
+                padding = dip(5)
                 button("Directory Configuration") {
                     onClick { ui.owner.startActivity(DirectoryConfigurationActivity::class) }
                 }
