@@ -16,7 +16,7 @@ class SettingsActivity : AppCompatActivity() {
 class SettingsActivityUI : AnkoComponent<SettingsActivity> {
     override fun createView(ui: AnkoContext<SettingsActivity>) = with(ui) {
         relativeLayout {
-            textView("Under construction").lparams { centerInParent() }
+            textView("SettingsActivity is under construction").lparams { centerInParent() }
         }
     }
 }

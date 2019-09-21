@@ -16,7 +16,7 @@ class ScheduleConfigurationActivity : AppCompatActivity() {
 class ScheduleConfigurationActivityUI : AnkoComponent<ScheduleConfigurationActivity> {
     override fun createView(ui: AnkoContext<ScheduleConfigurationActivity>) = with(ui) {
         relativeLayout {
-            textView("Under construction").lparams { centerInParent() }
+            textView("ScheduleConfigurationActivity is under construction").lparams { centerInParent() }
         }
     }
 }

@@ -1,6 +1,5 @@
 package com.github.keode
 
-import android.content.Intent
 import android.graphics.Color
 import android.os.Bundle
 import androidx.appcompat.app.AppCompatActivity
@@ -25,12 +24,20 @@ class MainActivityUI : AnkoComponent<MainActivity> {
                 textView("Keode") { textSize = 24F }
                 relativeLayout {
                     button("Settings") {
-                        onClick { ui.owner.startActivity(Intent(ui.owner, SettingsActivity::class.java)) }
+                        onClick { ui.owner.startActivity(SettingsActivity::class) }
                     }.lparams { alignParentEnd() }
                 }
             }
-            relativeLayout {
-                textView("Under construction").lparams { centerInParent() }
+            verticalLayout {
+                button("Directory Configuration") {
+                    onClick { ui.owner.startActivity(DirectoryConfigurationActivity::class) }
+                }
+                button("Schedule Configuration") {
+                    onClick { ui.owner.startActivity(ScheduleConfigurationActivity::class) }
+                }
+                button("Categorization") {
+                    onClick { ui.owner.startActivity(CategorizationActivity::class) }
+                }
             }.lparams(width = matchParent, height = matchParent)
         }
 

@@ -16,7 +16,7 @@ class DirectoryConfigurationActivity : AppCompatActivity() {
 class DirectoryConfigurationActivityUI : AnkoComponent<DirectoryConfigurationActivity> {
     override fun createView(ui: AnkoContext<DirectoryConfigurationActivity>) = with(ui) {
         relativeLayout {
-            textView("Under construction").lparams { centerInParent() }
+            textView("DirectoryConfigurationActivity is under construction").lparams { centerInParent() }
         }
     }
 }

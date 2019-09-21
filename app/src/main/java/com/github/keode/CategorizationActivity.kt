@@ -16,7 +16,7 @@ class CategorizationActivity : AppCompatActivity() {
 class CategorizationActivityUI : AnkoComponent<CategorizationActivity> {
     override fun createView(ui: AnkoContext<CategorizationActivity>) = with(ui) {
         relativeLayout {
-            textView("Under construction").lparams { centerInParent() }
+            textView("CategorizationActivity is under construction").lparams { centerInParent() }
         }
     }
 }
