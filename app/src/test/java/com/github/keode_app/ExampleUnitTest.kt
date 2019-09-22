@@ -1,4 +1,4 @@
-package com.github.keode
+package com.github.keode_app
 
 import org.junit.Test
 
