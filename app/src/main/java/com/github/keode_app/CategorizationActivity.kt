@@ -1,4 +1,4 @@
-package com.github.keode
+package com.github.keode_app
 
 import android.os.Bundle
 import androidx.appcompat.app.AppCompatActivity

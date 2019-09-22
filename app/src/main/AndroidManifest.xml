@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
-    package="com.github.keode">
+    package="com.github.keode_app">
 
     <application
         android:allowBackup="true"
